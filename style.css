@@ -139,7 +139,7 @@ main {
     }
 
     .product-information {
-        padding: 2rem;
-        justify-content: space-evenly;
+        padding: 1.5rem 2rem;
+        justify-content: space-between;
     }
 }
