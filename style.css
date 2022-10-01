@@ -106,7 +106,6 @@ main {
 .before-price {
     line-height: 1.438rem;
     letter-spacing: -0.02em;
-    text-decoration: line-through;
 }
 
 .add-to-cart-button {
@@ -139,7 +138,7 @@ main {
     }
 
     .product-information {
-        padding: 1.5rem 2rem;
-        justify-content: space-between;
+        padding: 2rem;
+        gap: 1.65rem;
     }
 }

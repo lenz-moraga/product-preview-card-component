@@ -17,8 +17,11 @@
 <body>
   <main>
     <article class="product-card">
-      <img src="./images/image-product-desktop.jpg" srcset="./images/image-product-mobile.jpg 686w,
-      ./images/image-product-desktop.jpg 600w" sizes="(max-width: 1200px) 686px, 600px" alt="Gabrielle Essence Eau De Parfum" />
+      <picture>
+        <source media="(max-width:1200px)" srcset="./images/image-product-mobile.jpg">
+        <img src="./images/image-product-desktop.jpg"
+          alt="Showing the Gabrielle Essence Eau De Parfum of 100ML.">
+      </picture>
       <div class="product-information">
         <p class="category">Perfume</p>
         <h1 class="product-information-name">
@@ -29,8 +32,8 @@
           Perfumer-Creator for the House of CHANEL.
         </p>
         <p class="product-information-price">
-          <span class="discount-price">$149.99</span>
-          <span class="before-price">$169.99</span>
+          <span class="discount-price" aria-label="Price with discount $149.99">$149.99</span>
+          <del class="before-price" aria-label="Previous price without discount $169.99">$169.99</del>
         </p>
         <button class="add-to-cart-button">
           <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
