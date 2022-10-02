@@ -50,7 +50,6 @@ main {
     width: calc(100vw - 2rem);
     max-width: calc(375px - 2rem);
     margin: 0 auto;
-    max-height: 612px;
     border-radius: 0.5rem;
     overflow: hidden;
     display: flex;
@@ -65,7 +64,6 @@ main {
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
 }
 
 .category {
@@ -73,6 +71,7 @@ main {
     letter-spacing: 0.33em;
     text-transform: uppercase;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .product-information-name {
@@ -81,11 +80,13 @@ main {
     line-height: 1;
     color: var(--Very-dark-blue);
     font-weight: 700;
+    margin-bottom: 22px;
 }
 
 .product-information-description {
     line-height: 1.438rem;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
 .product-information-price {
@@ -94,6 +95,7 @@ main {
     justify-content: flex-start;
     align-items: center;
     gap: 1.125rem;
+    margin-bottom: 22px;
 }
 
 .discount-price {
@@ -151,6 +153,21 @@ main {
 
     .product-information {
         padding: 2rem;
-        gap: 1.65rem;
+    }
+
+    .category {
+        margin-bottom: 22px;
+    }
+    
+    .product-information-name {
+        margin-bottom: 28px;
+    }
+    
+    .product-information-description {
+        margin-bottom: 36px;
+    }
+    
+    .product-information-price {
+        margin-bottom: 32px;
     }
 }
